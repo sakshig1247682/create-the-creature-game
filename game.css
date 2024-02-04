@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color:#F5CCA0; */
+    font-family:"dragon hunter";
+    font-weight: 100;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+   
+}
+
+.screen{
+    height: 100%;
+    width: 100%;
+    background-color:#6B240C ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all ease-out 0.7s;
+    color: #F5CCA0;
+}
+.screen h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.screen button{
+    padding: 18px 35px;
+    font-size: 25px;
+    background-color: transparent;
+    border: 2px solid #F5CCA0;
+    color: #F5CCA0;
+    cursor: pointer;
+    font-weight: 600;
+}
+.screen button:active{
+    scale: 0.95;
+}
+.screen button:hover{
+    background-color: #F5CCA0;
+    color:#6B240C ;
+    transition: all ease-out 0.7s;
+}
+.screen h2{
+    font-size: 60px;
+    text-align: center;
+}
+.elem-container{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.elem{
+    border: 2px solid #F5CCA0;
+    padding: 10px 20px;
+    color: #F5CCA0;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    cursor: grab;
+    transition: all ease 0.2s;
+
+}
+.elem img{
+    width: 100%;height: 90%;
+    object-fit: cover;
+    /* object-position: center; */
+}
+.elem:hover{
+    background: #F5CCA0;
+color: transparent;
+color: #6B240C;
+}
+.elem:active{
+    cursor: pointer;
+}
+.elem h4{
+    /* font-size: 23px; */
+    margin-bottom: 10px;
+}
+
+.time-score{
+    width: 100%;
+    padding: 25px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #F5CCA0;;
+}
+.time-score h4{
+    font-size: 24px;
+
+}
+.time-score h5{
+    font-size: 22px;
+
+}
+.playground{
+    height: 95%;
+    width: 100%;
+    position: relative;
+
+}
+.playground img{
+ height: 100px;
+ position: absolute;
+}
